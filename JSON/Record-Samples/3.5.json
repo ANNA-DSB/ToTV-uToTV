@@ -1,0 +1,85 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "EZBCF27YRWF3",
+			"LastModifiedDate": "2017-11-01",
+			"LastCompletedProcessingDate": "2017-11-11",
+			"CFI-Category": "J",
+			"CFI-Group": "E"
+		},
+		"DSB-ISIN": {"Header":{"AssetClass":"Equity","InstrumentType":"Forward","UseCase":"Price_Return_Basic_Performance_Single_Index","Level":"InstRefDataReporting"},"Attributes":{"NotionalCurrency":"EUR","ExpiryDate":"2025-03-25","Underlying":{"UnderlyingInstrumentISIN":["US2605661048"]},"PriceMultiplier":1,"DeliveryType":"PHYS","ReturnorPayoutTrigger":"Forward price of underlying instrument"},"ISIN":{"ISIN":"EZBCF27YRWF3","Status":"New","StatusReason":"","LastUpdateDateTime":"2017-10-31T16:09:35"},"TemplateVersion":1,"Derived":{"ISOUnderlyingInstrumentIndex":"","IssuerorOperatoroftheTradingVenueIdentifier":"NA","CommodityDerivativeIndicator":"FALSE","UnderlyingInstrumentIndexTermValue":0,"UnderlyingInstrumentIndexTermUnit":"DAYS","UnderlyingAssetType":"Index","FullName":"Equity Forward Price_Return_Basic_Performance_Single_Index US2605661048 EUR 20250325","ShortName":"NA/Fwd Idx Fwd Pr EUR 20250325","ClassificationType":"JEIXFP"}},
+
+		"Firds-RefData": {
+			"MTF" : [
+				{
+					"NewRcrd":{
+						"FinInstrmGnlAttrbts": {
+							"Id": "EZBCF27YRWF3",
+							"FullNm": "Equity Forward Price_Return_Basic_Performance_Single_Index US2605661048 EUR 20250325",
+							"ShrtNm": "NA/Fwd Idx Fwd Pr EUR 20250325",
+							"ClssfctnTp": "JEIXFP",
+							"NtnlCcy": "EUR",
+							"CmmdtyDerivInd":false
+						},
+						"Issr":"200RNOEUK6JUNJW4GO35",
+						"TradgVnRltdAttrbts":{
+							"Id": "GFBM",
+							"ReqForAdmssnDt": "2017-11-02T17:14:35"
+						},
+						"DerivInstrmAttrbts":{
+							"XpryDt" : "2025-03-25",
+							"PricMltplr": 1,
+							
+							"UndrlygInstrm":{
+								"Sngl":{
+									"Indx": {
+										"ISIN": "US2605661048"
+									}	
+								}
+							},
+							"DlvryTp": "PHYS"
+						}
+					}
+				}	
+			],
+			"SI" : [
+				{
+					"ModfdRcrd":{
+						"FinInstrmGnlAttrbts": {
+							"Id": "EZBCF27YRWF3",
+							"FullNm": "Equity Forward Price_Return_Basic_Performance_Single_Index US2605661048 EUR 20250325",
+							"ShrtNm": "NA/Fwd Idx Fwd Pr EUR 20250325",
+							"ClssfctnTp": "JEIXFP",
+							"NtnlCcy": "EUR",
+							"CmmdtyDerivInd":false
+						},
+						"Issr":"OQ3T05P7YR8P5YJEVI93",
+						"TradgVnRltdAttrbts":{
+							"Id": "BOFS",
+							"ReqForAdmssnDt": "2017-11-02T17:14:35"
+						},
+						"DerivInstrmAttrbts":{
+							"XpryDt" : "2025-03-25",
+							"PricMltplr": 1,
+							
+							"UndrlygInstrm":{
+								"Sngl":{
+									"Indx": {
+										"ISIN": "US2605661048"
+									}	
+								}
+							},
+							"DlvryTp": "PHYS"
+						}
+					}
+				}	
+			]
+		},
+		"Derived":{
+			"ToTV": true,
+			"ToTV-EarliestEffectiveDate": "2017-11-02",
+			"uToTV": true,
+			"uToTV-EarliestEffectiveDate": "2017-10-15"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "IE00B3Z66S39",
+			"LastModifiedDate": "2017-10-15",
+			"LastCompletedProcessingDate": "2017-10-30",
+			"CFI-Category": "C",
+			"CFI-Group": "E"			
+		},
+		
+		"Firds-RefData": {
+			"RM" : [
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"CFS-db-x-tr.EUR Liq.Co.12.5ETFReg. Shares 1C EUR o.N.","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"AdmssnApprvlDtByIssr":"2013-10-17T22:00:00","IssrReq":true,"ReqForAdmssnDt":"2013-10-10T22:00:00","Id":"FRAA","FrstTradDt":"2013-10-17T22:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-01"}}}},
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"CFS-db-x-tr.EUR Liq.Co.12.5ETFReg. Shares 1C EUR o.N.","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"AdmssnApprvlDtByIssr":"2013-10-17T22:00:00","IssrReq":true,"ReqForAdmssnDt":"2013-10-10T22:00:00","Id":"XETA","FrstTradDt":"2013-10-17T22:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-01"}}}}
+			],
+			"MTF": [
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"CFS-db-x-tr.EUR Liq.Co.12.5ETF Reg. Shares 1C EUR o.N.","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"IssrReq":false,"ReqForAdmssnDt":"2015-11-02T15:43:00","Id":"DUSD","FrstTradDt":"2015-11-11T00:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-01"}}}},
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"CFS-db-x-tr.EUR Liq.Co.12.5ETF Reg. Shares 1C EUR o.N.","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"IssrReq":false,"ReqForAdmssnDt":"2016-07-19T00:00:00","Id":"HAMN","FrstTradDt":"2016-08-01T00:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-01"}}}},
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"CFS-DB-X-TR.EUR LIQ.COR.","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"IssrReq":false,"Id":"MUND","FrstTradDt":"2014-07-04T00:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-01"}}}},
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"db x-trackers EUR Liquid Corporate 12.5 Listed UCITS ETF","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"IssrReq":false,"ReqForAdmssnDt":"2011-01-12T00:00:00","Id":"STUB","FrstTradDt":"2011-01-12T09:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-01"}}}},
+				{"RefData":{"DerivInstrmAttrbts":{"UndrlygInstrm":{"Sngl":{"Indx":{"ISIN":"IE00B3Z66S39","Nm":{"Term":{"Val":999,"Unit":"YEAR"},"RefRate":{"Nm":"db EUR Liquid Corporate 1"}}}}}},"Issr":"549300XWC1PJHRVAKI31","FinInstrmGnlAttrbts":{"ShrtNm":"Concept Fund So/db LiquCor EUR","FullNm":"CFS-db-x-tr.EUR Liq.Co.12.5ETF Reg. Shares 1C EUR o.N.","Id":"IE00B3Z66S39","NtnlCcy":"EUR","CmmdtyDerivInd":false,"ClssfctnTp":"CEOGBU"},"TradgVnRltdAttrbts":{"IssrReq":false,"Id":"XGAT","FrstTradDt":"2016-12-22T08:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-09-30"}}}}
+			]
+		},	
+		"Derived":{
+			"ToTV": true,
+			"ToTV-EarliestEffectiveDate": "2017-10-15",
+			"uToTV": true,
+			"uToTV-EarliestEffectiveDate": "2017-10-15"
+		}
+	}
+}

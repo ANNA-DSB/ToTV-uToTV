@@ -1,0 +1,51 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "EZ1WMFPQP393",
+			"LastModifiedDate": "2017-10-30",
+			"LastCompletedProcessingDate": "2017-10-30",
+			"CFI-Category": "S",
+			"CFI-Group": "E"
+		},
+		"DSB-ISIN": {"Header":{"AssetClass":"Equity","InstrumentType":"Swap","UseCase":"Price_Return_Basic_Performance_Single_Name","Level":"InstRefDataReporting"},"Attributes":{"NotionalCurrency":"EUR","ExpiryDate":"2018-11-30","UnderlyingInstrumentISIN":["NL0012650360"],"ReturnorPayoutTrigger":"Total Return","PriceMultiplier":1,"DeliveryType":"PHYS"},"ISIN":{"ISIN":"EZ1WMFPQP393","Status":"New","StatusReason":"","LastUpdateDateTime":"2017-10-26T15:58:27"},"TemplateVersion":1,"Derived":{"IssuerorOperatoroftheTradingVenueIdentifier":"NA","CommodityDerivativeIndicator":"FALSE","UnderlyingAssetType":"Single Stock","FullName":"Equity Swap Price_Return_Basic_Performance_Single_Name NL0012650360 EUR 20181130","ShortName":"NA/Swaps Tot Rtn EUR 20181130","ClassificationType":"SESTXP"}},
+
+		"Firds-RefData": {
+			"MTF" : [
+				{
+					"NewRcrd":{
+						"FinInstrmGnlAttrbts": {
+							"Id": "EZ1WMFPQP393",
+							"FullNm": "Equity Swap Price_Return_Basic_Performance_Single_Name NL0012650360 EUR 20181130",
+							"ShrtNm": "NA/Swaps Tot Rtn EUR 20181130",
+							"ClssfctnTp": "SESTXP",
+							"NtnlCcy": "EUR",
+							"CmmdtyDerivInd":false
+						},
+						"Issr":"200RNOEUK6JUNJW4GO35",
+						"TradgVnRltdAttrbts":{
+							"Id": "GFBM",
+							"ReqForAdmssnDt": "2017-11-02T17:14:35"
+						},
+						"DerivInstrmAttrbts":{
+							"XpryDt" : "2018-11-30",
+							"PricMltplr": 1,
+							
+							"UndrlygInstrm":{
+								"Sngl":{
+									"ISIN": "GB00BH4HKS39"
+								}
+							},
+							"DlvryTp": "PHYS"
+						}
+					}
+				}	
+			]
+		},
+		"Derived":{
+			"ToTV": true,
+			"ToTV-EarliestEffectiveDate": "2017-10-30",
+			"uToTV": true,
+			"uToTV-EarliestEffectiveDate": "2017-10-15"
+		}
+	}
+}

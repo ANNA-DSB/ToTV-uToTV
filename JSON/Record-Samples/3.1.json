@@ -1,0 +1,50 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "EZ9D3C5W9KT7",
+			"LastModifiedDate": "2017-10-26",
+			"LastCompletedProcessingDate": "2017-10-30",
+			"CFI-Category": "S",
+			"CFI-Group": "E"
+		},
+		"DSB-ISIN": {"Header":{"AssetClass":"Equity","InstrumentType":"Swap","UseCase":"Price_Return_Basic_Performance_Single_Name","Level":"InstRefDataReporting"},"Attributes":{"NotionalCurrency":"GBP","ExpiryDate":"2024-12-31","UnderlyingInstrumentISIN":["GB00BH4HKS39"],"ReturnorPayoutTrigger":"Total Return","PriceMultiplier":1,"DeliveryType":"PHYS"},"ISIN":{"ISIN":"EZ9D3C5W9KT7","Status":"New","StatusReason":"","LastUpdateDateTime":"2017-10-26T15:14:35"},"TemplateVersion":1,"Derived":{"IssuerorOperatoroftheTradingVenueIdentifier":"NA","CommodityDerivativeIndicator":"FALSE","UnderlyingAssetType":"Single Stock","FullName":"Equity Swap Price_Return_Basic_Performance_Single_Name GB00BH4HKS39 GBP 20241231","ShortName":"NA/Swaps Tot Rtn GBP 20241231","ClassificationType":"SESTXP"}},
+
+		"Firds-RefData": {
+			"SI" : [
+				{
+					"NewRcrd":{
+						"FinInstrmGnlAttrbts": {
+							"Id": "EZ9D3C5W9KT7",
+							"FullNm": "Equity Swap Price_Return_Basic_Performance_Single_Name GB00BH4HKS39 GBP 20241231",
+							"ShrtNm": "NA/Swaps Tot Rtn GBP 20241231",
+							"ClssfctnTp": "SESTXP",
+							"NtnlCcy": "GBP",
+							"CmmdtyDerivInd":false
+						},
+						"Issr":"OQ3T05P7YR8P5YJEVI93",
+						"TradgVnRltdAttrbts":{
+							"Id": "BOFS",
+							"ReqForAdmssnDt": "2017-10-26T17:14:35"
+						},
+						"DerivInstrmAttrbts":{
+							"XpryDt" : "2024-12-31",
+							"PricMltplr": 1,
+							
+							"UndrlygInstrm":{
+								"Sngl":{
+									"ISIN": "GB00BH4HKS39"
+								}
+							},
+							"DlvryTp": "PHYS"
+						}
+					}
+				}	
+			]
+		},
+		"Derived":{
+			"ToTV": false,
+			"uToTV": true,
+			"uToTV-EarliestEffectiveDate": "2017-10-15"
+		}
+	}
+}

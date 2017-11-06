@@ -1,0 +1,56 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "EZ502ZS3J2J7",
+			"LastModifiedDate": "2017-11-02",
+			"LastCompletedProcessingDate": "2017-11-11",
+			"CFI-Category": "J",
+			"CFI-Group": "E"
+		},
+		"DSB-ISIN": {"Header":{"AssetClass":"Equity","InstrumentType":"Forward","UseCase":"Price_Return_Basic_Performance_Single_Index","Level":"InstRefDataReporting"},"Attributes":{"NotionalCurrency":"EUR","ExpiryDate":"2025-03-25","Underlying":{"UnderlyingInstrumentIndex":["FTSE RUSSIA IOB INDEX"]},"PriceMultiplier":1,"ReturnorPayoutTrigger":"Forward price of underlying instrument","DeliveryType":"PHYS"},"ISIN":{"ISIN":"EZ502ZS3J2J7","Status":"New","StatusReason":"","LastUpdateDateTime":"2017-10-31T16:53:25"},"TemplateVersion":1,"Derived":{"ISOUnderlyingInstrumentIndex":"FTSE RUSSIA IOB INDEX","IssuerorOperatoroftheTradingVenueIdentifier":"NA","CommodityDerivativeIndicator":"FALSE","UnderlyingInstrumentIndexTermValue":0,"UnderlyingInstrumentIndexTermUnit":"DAYS","UnderlyingAssetType":"Index","FullName":"Equity Forward Price_Return_Basic_Performance_Single_Index FTSE RUSSIA IOB INDEX EUR 20250325","ShortName":"NA/Fwd Idx Fwd Pr EUR 20250325","ClassificationType":"JEIXFP"}},
+
+		"Firds-RefData": {
+			"MTF" : [
+				{
+					"NewRcrd":{
+						"FinInstrmGnlAttrbts": {
+							"Id": "EZ502ZS3J2J7",
+							"FullNm": "Equity Forward Price_Return_Basic_Performance_Single_Index FTSE RUSSIA IOB INDEX EUR 20250325",
+							"ShrtNm": "NA/Fwd Idx Fwd Pr EUR 20250325",
+							"ClssfctnTp": "JEIXFP",
+							"NtnlCcy": "EUR",
+							"CmmdtyDerivInd":false
+						},
+						"Issr":"200RNOEUK6JUNJW4GO35",
+						"TradgVnRltdAttrbts":{
+							"Id": "GFBM",
+							"ReqForAdmssnDt": "2017-11-02T17:14:35"
+						},
+						"DerivInstrmAttrbts":{
+							"XpryDt" : "2025-03-25",
+							"PricMltplr": 1,
+							
+							"UndrlygInstrm":{
+								"Sngl":{
+									"Indx": {
+										"Nm": {
+											"RefRate": {
+												"Nm": "FTSE RUSSIA IOB INDEX"
+											}
+										}
+									}	
+								}
+							},
+							"DlvryTp": "PHYS"
+						}
+					}
+				}	
+			]
+		},
+		"Derived":{
+			"ToTV": true,
+			"ToTV-EarliestEffectiveDate": "2017-11-02",
+			"uToTV": false
+		}
+	}
+}

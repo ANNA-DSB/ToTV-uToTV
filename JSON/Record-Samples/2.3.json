@@ -1,0 +1,23 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "XS0794821453",
+			"LastModifiedDate": "2017-10-15",
+			"LastCompletedProcessingDate": "2017-10-30",
+			"CFI-Category": "D",
+			"CFI-Group": "A"			
+		},
+		
+		"Firds-RefData": {
+			"MTF" : [
+				{"RefData":{"Issr":"391200OUOEWDQSEJ0Y74","DebtInstrmAttrbts":{"TtlIssdNmnlAmt":{"Ccy":"USD","content":650000000},"IntrstRate":{"Fxd":7},"NmnlValPerUnit":{"Ccy":"USD","content":1000},"MtrtyDt":"2019-06-19"},"FinInstrmGnlAttrbts":{"ShrtNm":"unknown","FullNm":"JAFZ Sukuk Ltd.               DL-Notes 2012(19)","Id":"XS0794821453","NtnlCcy":"USD","CmmdtyDerivInd":false,"ClssfctnTp":"DBCGFR"},"TradgVnRltdAttrbts":{"AdmssnApprvlDtByIssr":"2012-06-15T00:00:00","IssrReq":false,"ReqForAdmssnDt":"2012-06-13T00:00:00","Id":"BERB","FrstTradDt":"2012-06-15T00:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-07-18"}}}},
+				{"RefData":{"Issr":"391200OUOEWDQSEJ0Y74","DebtInstrmAttrbts":{"TtlIssdNmnlAmt":{"Ccy":"USD","content":650000000},"IntrstRate":{"Fxd":7},"NmnlValPerUnit":{"Ccy":"USD","content":1000},"MtrtyDt":"2019-06-19"},"FinInstrmGnlAttrbts":{"ShrtNm":"unknown","FullNm":"JAFZ Sukuk Ltd.               DL-Notes 2012(19)","Id":"XS0794821453","NtnlCcy":"USD","CmmdtyDerivInd":false,"ClssfctnTp":"DBCGFR"},"TradgVnRltdAttrbts":{"IssrReq":false,"ReqForAdmssnDt":"2012-06-13T00:50:00","TermntnDt":"2019-06-13T22:00:00","Id":"FRAB","FrstTradDt":"2012-07-16T22:00:00"},"TechAttrbts":{"RlvntCmptntAuthrty":"DE","PblctnPrd":{"FrDt":"2017-07-18"}}}}
+			]
+		},	
+		"Derived":{
+			"ToTV": true,
+			"ToTV-EarliestEffectiveDate": "2017-10-15",
+			"uToTV": false
+		}
+	}
+}

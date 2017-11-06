@@ -1,0 +1,17 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "EZ8JND56HJK5",
+			"LastModifiedDate": "2017-10-22",
+			"LastCompletedProcessingDate": "2017-10-30",
+			"CFI-Category": "S",
+			"CFI-Group": "R"
+		},
+		"DSB-ISIN": {"Header":{"AssetClass":"Rates","InstrumentType":"Swap","UseCase":"Fixed_Float","Level":"InstRefDataReporting"},"Attributes":{"NotionalCurrency":"USD","ExpiryDate":"2048-03-21","ReferenceRate":"USD-LIBOR-BBA","ReferenceRateTermValue":3,"ReferenceRateTermUnit":"MNTH","NotionalSchedule":"Constant","DeliveryType":"PHYS","PriceMultiplier":1},"ISIN":{"ISIN":"EZ8JND56HJK5","Status":"New","StatusReason":"","LastUpdateDateTime":"2017-10-22T14:00:40"},"TemplateVersion":1,"Derived":{"ISOReferenceRate":"LIBO","CommodityDerivativeIndicator":"FALSE","UnderlyingAssetType":"Fixed - Floating","SingleorMultiCurrency":"Single Currency","IssuerorOperatoroftheTradingVenueIdentifier":"NA","FullName":"Rates Swap Fixed_Float USD-LIBOR-BBA 3 MNTH 20480321","ShortName":"NA/Swap Fxd Flt USD 20480321","ClassificationType":"SRCCSP"}},
+	
+		"Derived":{
+			"ToTV": false,
+			"uToTV": false
+		}
+	}
+}

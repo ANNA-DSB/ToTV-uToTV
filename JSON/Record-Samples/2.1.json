@@ -1,0 +1,18 @@
+{
+	"ToTV-record": {
+		"Header": {
+			"ISIN": "EZ7KK5H5GCR3",
+			"LastModifiedDate": "2017-10-22",
+			"LastCompletedProcessingDate": "2017-10-30",
+			"CFI-Category": "S",
+			"CFI-Group": "E"			
+		},
+		"DSB-ISIN": {"Header":{"AssetClass":"Equity","InstrumentType":"Swap","UseCase":"Price_Return_Basic_Performance_Single_Name","Level":"InstRefDataReporting"},"Attributes":{"NotionalCurrency":"GBP","ExpiryDate":"2016-07-12","UnderlyingInstrumentISIN":["GB0005405286"],"ReturnorPayoutTrigger":"Total Return","PriceMultiplier":1,"DeliveryType":"PHYS"},"ISIN":{"ISIN":"EZ7KK5H5GCR3","Status":"Expired","StatusReason":"","LastUpdateDateTime":"2017-10-22T14:05:53"},"TemplateVersion":1,"Derived":{"IssuerorOperatoroftheTradingVenueIdentifier":"NA","CommodityDerivativeIndicator":"FALSE","UnderlyingAssetType":"Single Stock","FullName":"Equity Swap Price_Return_Basic_Performance_Single_Name GB0005405286 GBP 20160712","ShortName":"NA/Swaps Tot Rtn GBP 20160712","ClassificationType":"SESTXP"}},
+		
+		"Derived":{
+			"ToTV": false,
+			"uToTV": true,
+			"uToTV-EarliestEffectiveDate": "2017-10-15"
+		}
+	}
+}
