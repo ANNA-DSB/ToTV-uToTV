@@ -23,9 +23,9 @@
 		},	
 		"Derived":{
 			"ToTV": true,
-			"ToTV-EarliestEffectiveDate": "2017-10-15",
+			"ToTV-EffectiveDate": "2017-10-15",
 			"uToTV": true,
-			"uToTV-EarliestEffectiveDate": "2017-10-15"
+			"uToTV-EffectiveDate": "2017-10-15"
 		}
 	}
 }

@@ -49,7 +49,7 @@
 		},
 		"Derived":{
 			"ToTV": true,
-			"ToTV-EarliestEffectiveDate": "2017-11-02",
+			"ToTV-EffectiveDate": "2017-11-02",
 			"uToTV": false
 		}
 	}
