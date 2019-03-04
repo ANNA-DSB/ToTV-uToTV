@@ -1,0 +1,254 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "DSB.ToTV.V2.0",
+    "LastModifyDateTime": "2019-02-22T17:45:00",
+    "description": "The DSB ToTV JSON schema",
+    "copyright": "Copyright © 2019 The Derivatives Service Bureau (DSB) Limited. All Rights Reserved.",
+    "type": "object",
+    "properties": {
+        "ToTV-record": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "type": "string",
+                    "enum": ["2"],
+                    "const": "2"
+                },
+                "Header": {
+                    "type": "object",
+                    "properties": {
+                        "ISIN": {
+                            "type": "string",
+                            "pattern": "^[A-Z]{2}[A-Z0-9]{9}[0-9]$",
+                            "description": "International Securities Identification Number (ISO 6166)"
+                        },
+                        "LastModifiedDate": {
+                            "type": "string",
+                            "description": "Last date when this record was updated(YYYY-MM-DD)",
+                            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                            "format": "date"
+                        },
+                        "LastCompletedProcessingDate": {
+                            "type": "string",
+                            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                            "format": "date",
+                            "description": "The last date when the DSB has complete processing all the records that are available in all sources (YYYY-MM-DD)"
+                        },
+					},
+                    "required": [
+                        "ISIN",
+                        "LastModifiedDate",
+                        "LastCompletedProcessingDate"
+                    ],
+                    "additionalProperties": false
+                },
+                "DSB-ISIN": {
+                    "description": "A valid DSB ISIN opject",
+                    "type": "object"
+                },
+                "EU": {
+                    "type": "object",
+                    "properties": {
+                        "RefData": {
+                            "type": "object",
+                            "properties": {
+                                "RM": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by a Regulated Market to ESMA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "MTF": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by a Multilateral Trading Facility to ESMA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "OTF": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by an Organised Trading Facility to ESMA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "SI": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by a Systematic Internalizer to ESMA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "UNKNOWN": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by Unknow organization to ESMA FIRDS",
+                                        "type": "object"
+                                    }
+                                }
+                            },
+                            "additionalProperties": false
+                        },
+                        "Firds-TransparencyData": {
+                            "type": "array",
+                            "uniqueItems": true,
+                            "minItems": 1,
+                            "items": {
+                                "description": "A valid FiRDS transparency record",
+                                "type": "object"
+                            }
+                        },
+                        "Derived": {
+                            "type": "object",
+                            "properties": {
+                                "ToTV": {
+                                    "description": "The DSB ToTV flag",
+                                    "type": "boolean",
+                                    "default": false
+                                },
+                                "ToTV-EffectiveDate": {
+                                    "description": "The DSB ToTV earliest effective date",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                                    "format": "date"
+                                },
+                                "uToTV": {
+                                    "description": "The DSB uToTV flag",
+                                    "type": "boolean"
+                                },
+                                "uToTV-EffectiveDate": {
+                                    "type": "string",
+                                    "description": "The DSB uToTV earliest effective date",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                                    "format": "date"
+                                }
+                            },
+                            "required": ["ToTV", "uToTV"],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [
+                        "Derived"
+                    ],
+                    "additionalProperties": false
+                },
+                "UK": {
+                    "type": "object",
+                    "properties": {
+                        "RefData": {
+                            "type": "object",
+                            "properties": {
+                                "RM": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by a Regulated Market to FCA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "MTF": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by a Multilateral Trading Facility to FCA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "OTF": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by an Organised Trading Facility to FCA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "SI": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by a Systematic Internalizer to FCA FIRDS",
+                                        "type": "object"
+                                    }
+                                },
+                                "UNKNOWN": {
+                                    "type": "array",
+                                    "uniqueItems": true,
+                                    "minItems": 1,
+                                    "items": {
+                                        "description": "A valid FiRDS reference data record, reported by Unknow organization to FCA FIRDS",
+                                        "type": "object"
+                                    }
+                                }
+                            },
+                            "additionalProperties": false
+                        },
+                        "Firds-TransparencyData": {
+                            "type": "array",
+                            "uniqueItems": true,
+                            "minItems": 1,
+                            "items": {
+                                "description": "A valid FiRDS transparency record",
+                                "type": "object"
+                            }
+                        },
+                        "Derived": {
+                            "type": "object",
+                            "properties": {
+                                "ToTV": {
+                                    "description": "The DSB ToTV flag",
+                                    "type": "boolean",
+                                    "default": false
+                                },
+                                "ToTV-EffectiveDate": {
+                                    "description": "The DSB ToTV earliest effective date",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                                    "format": "date"
+                                },
+                                "uToTV": {
+                                    "description": "The DSB uToTV flag",
+                                    "type": "boolean"
+                                },
+                                "uToTV-EffectiveDate": {
+                                    "type": "string",
+                                    "description": "The DSB uToTV earliest effective date",
+                                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                                    "format": "date"
+                                }
+                            },
+                            "required": ["ToTV", "uToTV"],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [
+                        "Derived"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "version", "Header"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "required": [
+        "ToTV-record"
+    ],
+    "additionalProperties": false
+}
