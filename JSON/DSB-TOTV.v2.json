@@ -49,7 +49,7 @@
                 "EU": {
                     "type": "object",
                     "properties": {
-                        "RefData": {
+                        "RefDataRecords": {
                             "type": "object",
                             "properties": {
                                 "RM": {
@@ -100,7 +100,7 @@
                             },
                             "additionalProperties": false
                         },
-                        "Firds-TransparencyData": {
+                        "TransparencyDataRecords": {
                             "type": "array",
                             "uniqueItems": true,
                             "minItems": 1,
@@ -146,7 +146,7 @@
                 "UK": {
                     "type": "object",
                     "properties": {
-                        "RefData": {
+                        "RefDataRecords": {
                             "type": "object",
                             "properties": {
                                 "RM": {
@@ -196,15 +196,6 @@
                                 }
                             },
                             "additionalProperties": false
-                        },
-                        "Firds-TransparencyData": {
-                            "type": "array",
-                            "uniqueItems": true,
-                            "minItems": 1,
-                            "items": {
-                                "description": "A valid FiRDS transparency record",
-                                "type": "object"
-                            }
                         },
                         "Derived": {
                             "type": "object",
