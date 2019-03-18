@@ -233,7 +233,7 @@
                 }
             },
             "required": [
-                "version", "Header"
+                "version", "Header", "EU", "UK"
             ],
             "additionalProperties": false
         }
